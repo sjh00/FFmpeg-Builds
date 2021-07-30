@@ -58,7 +58,7 @@ cat <<EOF >"$BUILD_SCRIPT"
     cd /ffbuild
     rm -rf ffmpeg prefix
 
-    git clone https://github.com/sjh00/FFmpeg.git ffmpeg
+    git clone https://github.com/sjh00/myFFmpeg.git ffmpeg
     cd ffmpeg
     git checkout $GIT_BRANCH
 
