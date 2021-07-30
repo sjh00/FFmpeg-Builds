@@ -8,12 +8,11 @@ Linux builds are targetting Ubuntu 16.04 (glibc-2.23 + linux-4.4) and anything m
 
 ## Auto-Builds
 
-Builds run daily at 12:00 UTC (or GitHubs idea of that time) and are automatically released on success.
+Builds run monthly 1st at 4:00 UTC (or GitHubs idea of that time) and are automatically released on success.
 
 ### Release Retention Policy
 
 - The last build of each month is kept for two years.
-- The last 14 daily builds are kept.
 
 ## Package List
 
