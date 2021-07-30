@@ -136,8 +136,8 @@ jobs:
         id: create_release
         run: |
           set -xe
-          NAME="Auto-Build $(date +'%Y-%m-%d %H:%M')"
-          TAGNAME="autobuild-$(date +'%Y-%m-%d-%H-%M')"
+          NAME="Auto-Build-Win64 $(date +'%Y-%m-%d %H:%M')"
+          TAGNAME="autobuildwin64-$(date +'%Y-%m-%d-%H-%M')"
           hub release create $(for a in artifacts/*.zip; do echo -a $a; done) -m "$NAME" -t "master" "$TAGNAME"
           echo "::set-output name=tag_name::${TAGNAME}"
         env:
